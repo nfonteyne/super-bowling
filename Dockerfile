@@ -1,5 +1,7 @@
 FROM nginx:1.30-alpine
 
+RUN apk update && apk upgrade --no-cache
+
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY index.html /usr/share/nginx/html/index.html
 COPY super-bowling.ics /usr/share/nginx/html/super-bowling.ics
