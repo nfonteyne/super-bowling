@@ -1,0 +1,7 @@
+services:
+  bowling-site:
+    build: .
+    container_name: strikenight
+    restart: unless-stopped
+    ports:
+      - "8080:80"

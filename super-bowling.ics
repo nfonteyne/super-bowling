@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SuperBowling//Tournoi//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:super-bowling-20261220@strikenight
+DTSTAMP:20261121T000000Z
+DTSTART:20261220T100000Z
+DTEND:20261220T130000Z
+SUMMARY:Super Bowling 🎳
+DESCRIPTION:Tournoi de bowling entre amis. Amenez votre matos\, on est des pros quand même.\n\nAdresse : 15 Rue Gaston de Caillavet\, 75015 Paris\nItinéraire : https://maps.app.goo.gl/MRoogfHNgop3EG5t8
+LOCATION:15 Rue Gaston de Caillavet\, 75015 Paris
+URL:https://maps.app.goo.gl/MRoogfHNgop3EG5t8
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
